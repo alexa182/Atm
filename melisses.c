@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 int melisses=1200,eti=0;
-float sunolo=0;
 
 int main()
 {
