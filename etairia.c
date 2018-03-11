@@ -34,7 +34,7 @@ int main()
 			printf("\nPerisoteres apantiseis #1 : %2.f%%\n",(float)(apantisi_1/sunolo)*100);
 		else if(apantisi_2>apantisi_1 && apantisi_2>apantisi_3)
 			printf("\nPerisoteres apantiseis #2 : %2.f%%\n",(float)(apantisi_2/sunolo)*100);
-		else if(apantisi_3>apantisi_1 && apantisi_3>apantisi_1)
+		else if(apantisi_3>apantisi_1 && apantisi_3>apantisi_2)
 			printf("\nPerisoteres apantiseis #3 : %2.f%%\n",(float)(apantisi_3/sunolo)*100);
 	}
 
