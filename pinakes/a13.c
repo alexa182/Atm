@@ -18,7 +18,4 @@ int main()
 		}					
 	}
 	printf("\nsunolo : %d\n",counter);
-
-
-
 }
