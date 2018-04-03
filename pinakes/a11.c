@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include<stdio.h>
 
 int main()
 {
@@ -9,18 +9,18 @@ int main()
 
 	printf("noumera :\n");
 	
-	for(int y=0;y<x;y++)	
-		scanf("%d",&lista[y]);
+	for(int c=0;c<x;c++)	
+		scanf("%d",&lista[c]);
 
 	printf("thesi alagis : ");
 	scanf("%d",&new);
 	
-	for(int d=0;d<x;d++)	
+	for(int c=0;c<x;c++)	
 	{
-		if(lista[d]==lista[new])
+		if(lista[c]==new)
 		{
 			printf("neo noumero : ");
-			scanf("%d",&lista[d]);
+			scanf("%d",&lista[new]);
 		}
 	}
 	for(int c=0;c<x;c++)	
