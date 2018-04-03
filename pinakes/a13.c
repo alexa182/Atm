@@ -9,12 +9,11 @@ int main()
 
 	for(int y=0;y<6;y++)
 	{
-		while(pin[y]==x)	
+		if(pin[y]==x)	
 		{	
 			printf("thesi : %d\n",y);
-			counter++;
-			break;	
-		}					
+			counter++;	
+		}							
 	}
 	printf("\nsunolo : %d\n",counter);
 }
