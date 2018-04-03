@@ -1,20 +1,19 @@
 #include <stdio.h>
-#include <string.h>
 
 int main()
 {
-	char name[30],len;
+	char name[30];
 
 	fgets(name,30,stdin);
-	len=strlen(name);
 
-	for(int x=0;x<len;x++)
+
+	for(int x=0;x<30;x++)
 	{
 		if(name[x]==' ')
 		{
-			for(int y=x;y<len;y++)
+			for(int y=x;y<30;y++)
 				name[y]=name[y+1];
-			len--;
+			x--;
 		}									
 	}					
 	printf("%s",name);	
