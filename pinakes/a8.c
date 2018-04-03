@@ -9,10 +9,10 @@ int main()
 		scanf("%d",&pin1[x]);
 	
 	printf("Pinakas #2\n");
-	for(int y=0;y<5;y++)
-		scanf("%d",&pin2[y]);
+	for(int x=0;x<5;y++)
+		scanf("%d",&pin2[x]);
 	
-	for(int d=0;d<5;d++)
-		sum[d] = pin1[d]*pin2[d];	
+	for(int x=0;x<5;x++)
+		sum[x] = pin1[x]*pin2[x];	
 
 }
