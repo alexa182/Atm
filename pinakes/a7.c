@@ -2,7 +2,7 @@
 
 int main()
 {
-	int lista[20],zeros;
+	int lista[20],zeros=0;
 
 	for(int x=0;x<20;x++)
 	{
