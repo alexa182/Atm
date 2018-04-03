@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int numbs(int num[])
+void numbs(int num[])
 {
 	int max,maxpos,min,minpos;
 
@@ -23,7 +23,7 @@ int numbs(int num[])
 	printf("Max : %d Thesi : %d\nMin : %d Thesi: %d\n",max,maxpos,min,minpos);
 }
 
-int mo(int pin[])
+void mo(int pin[])
 {
 	int sunolo=0;
 	
