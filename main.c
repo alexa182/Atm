@@ -3,7 +3,7 @@
 
 int main()
 {
-	float q,prate,q1,sum=0,pinakas[100];
+	float q,prate,q1,sum=0,pinakas[100],pinakas2[100];
 	int years;
 
 	printf("Untapped market and penetration rate : ");
@@ -20,6 +20,7 @@ int main()
 		for(int x=0;x<years;x++)
 		{
 			q=q1*prate*pow(1-prate,x);
+			pinakas2[x]=q;
 			sum+=q;
 			pinakas[x]=sum;			
 		
